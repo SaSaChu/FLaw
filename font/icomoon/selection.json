@@ -1,0 +1,122 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M448 330.666c0-29.44 23.894-53.334 53.334-53.334s53.334 23.894 53.334 53.334-23.894 53.334-53.334 53.334-53.334-23.894-53.334-53.334zM501.334 192c-76.586 0-138.666 62.080-138.666 138.666s62.080 138.666 138.666 138.666c76.586 0 138.666-62.080 138.666-138.666s-62.080-138.666-138.666-138.666zM170.666 324.694c0 217.6 256.64 385.066 277.334 635.306v10.666c0 29.44 23.894 53.334 53.334 53.334s53.334-23.894 53.334-53.334l-0.002-10.666c21.952-250.24 277.334-417.706 277.334-635.306 0-179.414-148.032-324.694-330.666-324.694-182.614 0-330.668 145.28-330.668 324.694zM501.334 106.666c123.732 0 224 100.268 224 224s-100.268 224-224 224-224-100.266-224-224 100.266-224 224-224z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"location"
+				],
+				"grid": 48
+			},
+			"attrs": [],
+			"properties": {
+				"id": 71,
+				"order": 865,
+				"prevSize": 48,
+				"code": 59649,
+				"name": "location"
+			},
+			"setIdx": 4,
+			"setId": 14,
+			"iconIdx": 70
+		},
+		{
+			"icon": {
+				"paths": [
+					"M80.589 270.643c24.986 13.414 371.098 199.373 384 206.285s29.594 10.189 46.387 10.189c16.794 0 33.485-3.277 46.387-10.189s359.014-192.87 384-206.285c25.037-13.466 48.691-65.843 2.765-65.843h-866.253c-45.926 0-22.272 52.378 2.714 65.843zM952.986 383.437c-28.416 14.797-378.214 197.069-395.622 206.182s-29.594 10.189-46.387 10.189-28.979-1.075-46.387-10.189-365.21-191.437-393.626-206.234c-19.968-10.445-19.763 1.792-19.763 11.213s0 373.402 0 373.402c0 21.504 28.979 51.2 51.2 51.2h819.2c22.221 0 51.2-29.696 51.2-51.2 0 0 0-363.93 0-373.35s0.205-21.658-19.814-11.213z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"mail"
+				],
+				"grid": 20
+			},
+			"attrs": [],
+			"properties": {
+				"id": 219,
+				"order": 866,
+				"prevSize": 20,
+				"code": 59652,
+				"name": "mail"
+			},
+			"setIdx": 11,
+			"setId": 7,
+			"iconIdx": 218
+		},
+		{
+			"icon": {
+				"paths": [
+					"M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"phone",
+					"telephone",
+					"contact",
+					"support",
+					"call"
+				],
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 17,
+				"prevSize": 32,
+				"ligatures": "phone, telephone",
+				"name": "phone",
+				"id": 67,
+				"code": 59648
+			},
+			"setIdx": 18,
+			"setId": 0,
+			"iconIdx": 66
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"embed": false,
+			"autoHost": true
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 0,
+			"bgColor": 16777215,
+			"classSelector": ".icon",
+			"height": 32,
+			"columns": 16,
+			"margin": 16
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"quickUsageToken": {
+			"UntitledProject": "MzQ2MDE3YWMwZmMyNDVjOGU3NDFkY2M4YmFjOTBlMjkjMSMxNDYzMDMzMzMzIyMj"
+		}
+	}
+}

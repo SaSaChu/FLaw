@@ -1,1 +1,306 @@
-﻿@font-face{font-family:"Monaco";src:url('/oaf2e/font/monaco/monaco.ttf?1439651096') format('truetype'),url('/oaf2e/font/monaco/monaco.otf?1439651096') format('opentype')}*,*:after,*:before{vertical-align:top;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-moz-osx-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}*::-moz-selection,*:after::-moz-selection,*:before::-moz-selection{color:#fff;background-color:#96c8ff}*::selection,*:after::selection,*:before::selection{color:#fff;background-color:#96c8ff}html{height:100%}html body{position:relative;display:inline-block;text-align:center;margin:0;width:100%;height:100%;font-size:medium;font-family:Monaco, "微軟正黑體", "Microsoft JhengHei";background:#fff url('/oaf2e/img/bg/grunge.png');color:rgba(50,50,50,0.8);-moz-osx-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}html body #container{position:relative;display:block;margin:0 auto;max-width:1200px;padding:0 10px}@media screen and (min-width: 1200px){html body #container{padding:0}}
+@charset "UTF-8";
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+@font-face {
+  font-family: "icomoon";
+  src: url('/oaf2e/font/icomoon/icomoon.eot?1465220946') format('embedded-opentype'), url('/oaf2e/font/icomoon/icomoon.woff?1465220946') format('woff'), url('/oaf2e/font/icomoon/icomoon.ttf?1465220946') format('truetype'), url('/oaf2e/font/icomoon/icomoon.svg?1465220946') format('svg');
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon', "Roboto", "微軟正黑體", 'Monaco';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+.icon-location:before {
+  content: "\e901";
+}
+
+.icon-mail:before {
+  content: "\e904";
+}
+
+.icon-phone:before {
+  content: "\e900";
+}
+
+*, *:after, *:before {
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+*::-moz-selection, *:after::-moz-selection, *:before::-moz-selection {
+  color: white;
+  background-color: #96c8ff;
+}
+*::selection, *:after::selection, *:before::selection {
+  color: white;
+  background-color: #96c8ff;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-family: Monaco, "微軟正黑體", "Microsoft JhengHei";
+  background: white;
+  color: rgba(50, 50, 50, 0.8);
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+html body header {
+  width: 100%;
+}
+html body header .ta {
+  width: 100%;
+  height: 165px;
+  background-color: #e5e5e5;
+  border-top: 3px solid gba(25, 71, 117, 1);
+}
+html body header .ta .tabox {
+  margin: 0 auto;
+  width: 1000px;
+  *zoom: 1;
+}
+html body header .ta .tabox:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body header .ta .tabox .logo, html body header .ta .tabox .phone {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+html body header .ta .tabox .phone {
+  float: right;
+}
+html body header .ta .tabox .logo {
+  width: 70%;
+}
+html body header .ta .tabox .phone {
+  width: calc(100% - 70%);
+}
+html body header .ta .tabox .logo {
+  float: left;
+  padding-top: 35px;
+}
+html body header .ta .tabox .logo img {
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
+html body header .ta .tabox .phone {
+  float: right;
+  padding-top: 25px;
+  font-weight: bolder;
+  color: #010101;
+  *zoom: 1;
+}
+html body header .ta .tabox .phone:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body header .ta .tabox .phone .t01 {
+  display: inline-block;
+  font-size: 1em;
+  float: left;
+}
+html body header .ta .tabox .phone .t01 img {
+  max-width: 100%;
+  height: auto;
+}
+html body header .ta .tabox .phone .t02 {
+  display: inline-block;
+  font-size: 2em;
+  float: left;
+  padding-left: 23px;
+}
+html body header .ta .tabox .phone .t03 {
+  display: inline-block;
+  font-size: 1.3em;
+  float: left;
+  padding-left: 35px;
+}
+html body header .ta .tabox .phone .t04 {
+  display: inline-block;
+  font-size: 1em;
+  float: left;
+  padding-left: 35px;
+}
+html body header .tb {
+  width: 100%;
+  height: 65px;
+  background-color: #194775;
+}
+html body header .tb .tbbox {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 20px 0;
+  *zoom: 1;
+}
+html body header .tb .tbbox:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body header .tb .tbbox > div {
+  float: left;
+  width: calc(100% / 8);
+  height: 100%;
+  text-align: center;
+  *zoom: 1;
+}
+html body header .tb .tbbox > div:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body header .tb .tbbox > div a {
+  float: left;
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+}
+html body header .tb .tbbox > div a:hover {
+  color: #cdba35;
+}
+html body header .tb .tbbox > div a.nh {
+  color: #cdba35;
+}
+html body header .tb .tbbox > div + div a {
+  position: relative;
+}
+html body header .tb .tbbox > div + div a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  background-color: white;
+}
+html body .middle {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 255, 0.2);
+}
+html body footer {
+  width: 100%;
+  height: 125px;
+}
+html body footer .ft {
+  width: 100%;
+  height: 80px;
+  background-color: #194775;
+}
+html body footer .ft .ftbox {
+  margin: 0 auto;
+  width: 1000px;
+}
+html body footer .ft .ftbox .ft01 {
+  width: 100%;
+  font-size: 1em;
+  font-weight: bolder;
+  color: #b9d9f9;
+  text-align: left;
+  padding: 13px 0;
+}
+html body footer .ft .ftbox .ft02 {
+  float: left;
+  display: inline-block;
+  font-size: .8em;
+  color: white;
+  padding-right: 20px;
+}
+html body footer .ft .ftbox .ft02:before {
+  display: inline-block;
+  content: '';
+}
+html body footer .fd {
+  width: 100%;
+  height: 45px;
+  padding-top: 15px;
+  background-color: #baa623;
+}
+html body footer .fd span {
+  margin: 0 auto;
+  width: 1000px;
+  font-size: .8em;
+  color: white;
+}
