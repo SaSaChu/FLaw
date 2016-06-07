@@ -1,0 +1,415 @@
+@charset "UTF-8";
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2016 OA Wu Design
+ */
+@font-face {
+  font-family: "icomoon";
+  src: url('/FLaw/font/icomoon/icomoon.eot?1465220946') format('embedded-opentype'), url('/FLaw/font/icomoon/icomoon.woff?1465220946') format('woff'), url('/FLaw/font/icomoon/icomoon.ttf?1465220946') format('truetype'), url('/FLaw/font/icomoon/icomoon.svg?1465220946') format('svg');
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon', "Roboto", "微軟正黑體", 'Monaco';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+.icon-location:before {
+  content: "\e901";
+}
+
+.icon-mail:before {
+  content: "\e904";
+}
+
+.icon-phone:before {
+  content: "\e900";
+}
+
+*, *:after, *:before {
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+*::-moz-selection, *:after::-moz-selection, *:before::-moz-selection {
+  color: white;
+  background-color: #96c8ff;
+}
+*::selection, *:after::selection, *:before::selection {
+  color: white;
+  background-color: #96c8ff;
+}
+
+.middle .tagbox {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100px;
+}
+.middle .tagbox .ta01 {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+  *zoom: 1;
+}
+.middle .tagbox .ta01:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle .tagbox .ta01 a {
+  float: left;
+  font-size: .8em;
+  font-weight: bolder;
+  text-align: left;
+  color: #375f87;
+  text-decoration: none;
+  padding: 0 5px;
+}
+.middle .tagbox .ta01 a:hover {
+  color: #409ed1;
+  text-decoration: underline;
+}
+.middle .tagbox .ta01 span {
+  float: left;
+  font-weight: bolder;
+  font-size: .8em;
+  color: #375f87;
+  padding: 0 5px;
+}
+.middle .tagbox .ta01 span.n01 {
+  color: #409ed1;
+}
+.middle .tagbox .ta02 {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #194775;
+  border-left: 3px solid #b9a522;
+  *zoom: 1;
+}
+.middle .tagbox .ta02:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle .tagbox .ta02 span {
+  float: left;
+  text-align: left;
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: white;
+  padding: 10px 0 0 15px;
+}
+
+.middle06 {
+  width: 100%;
+  padding-bottom: 40px;
+  background-image: url('/FLaw/img/pagebg.jpg');
+}
+.middle06 .bann {
+  margin: 0 auto;
+  height: 350px;
+  width: 1000px;
+}
+.middle06 .bann img {
+  width: 100%;
+  height: 100%;
+}
+.middle06 .centbox {
+  margin: 0 auto;
+  width: 1000px;
+}
+.middle06 .centbox .wh01 {
+  margin-top: 15px;
+  width: 100%;
+  background-color: white;
+  padding: 15px 15px;
+  *zoom: 1;
+}
+.middle06 .centbox .wh01:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wh01 .new01 {
+  float: left;
+  width: 100%;
+  border-bottom: 1px dotted #6c89a8;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  *zoom: 1;
+}
+.middle06 .centbox .wh01 .new01:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wh01 .new01 .np01 {
+  float: left;
+  width: 100%;
+  text-align: left;
+  border-left: 2px solid #769bcb;
+  font-size: .8em;
+  font-weight: bolder;
+  color: #969696;
+  padding: 5px 5px;
+}
+.middle06 .centbox .wh01 .new01 .np02 {
+  float: left;
+  width: 100%;
+  border-left: 2px solid #bdb579;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 1em;
+  color: #345980;
+  padding: 5px 5px;
+  text-decoration: none;
+  *zoom: 1;
+}
+.middle06 .centbox .wh01 .new01 .np02:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wh01 .new01 .np02 a {
+  float: left;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 1em;
+  color: #345980;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+.middle06 .centbox .wh01 .new01 .np02 a:hover {
+  color: #409ed1;
+  text-decoration: underline;
+}
+.middle06 .centbox .wh01 .np03 {
+  float: left;
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+  color: #262626;
+  padding: 5px 5px;
+}
+.middle06 .centbox .wh01 .whh {
+  float: left;
+  width: calc(50% - 5px);
+  padding: 15px 15px 30px 15px;
+  *zoom: 1;
+}
+.middle06 .centbox .wh01 .whh:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wh01 .whh img {
+  float: left;
+  width: 327px;
+  height: 52px;
+}
+.middle06 .centbox .wh01 .whh .map {
+  float: left;
+  width: 100%;
+  height: 205px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.middle06 .centbox .wh01 .whh .cc01 {
+  float: left;
+  width: 100%;
+  padding-top: 15px;
+}
+.middle06 .centbox .wh01 .whh .cc01 span {
+  float: left;
+  font-size: 1em;
+  text-align: left;
+  color: #6698c9;
+  font-weight: bolder;
+}
+.middle06 .centbox .wh01 .whh .cc01 span.cotype {
+  float: left;
+  font-size: 1em;
+  text-align: left;
+  color: #1a1a1a;
+  font-weight: bolder;
+}
+.middle06 .centbox .wh01 .whh .cc01 span.cotype a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.middle06 .centbox .wh01 .whh .cc01 span.cotype a:hover {
+  text-decoration: underline;
+}
+.middle06 .centbox .wh01 .whh .cc01 a.ot01 {
+  float: left;
+  font-size: 1em;
+  text-align: left;
+  color: #1a1a1a;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 5px 0 0 58px;
+}
+.middle06 .centbox .wh01 .whh .cc01 a.ot01:hover {
+  text-decoration: underline;
+}
+.middle06 .centbox .wh01 .whh:nth-child(2n+1) {
+  float: left;
+}
+.middle06 .centbox .wh01 .whh:nth-child(2n) {
+  float: right;
+}
+.middle06 .centbox .wh01 img {
+  width: 922px;
+  height: 193px;
+}
+.middle06 .centbox .mblc {
+  width: 100%;
+  padding-top: 40px;
+}
+.middle06 .centbox .mblc .nb {
+  width: 100%;
+}
+.middle06 .centbox .mblc .nb .cnb {
+  display: inline-block;
+  *zoom: 1;
+}
+.middle06 .centbox .mblc .nb .cnb:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .mblc .nb .cnb > a {
+  display: inline-block;
+  padding-top: 5px;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #99bbd2;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.middle06 .centbox .mblc .nb .cnb > a:hover, .middle06 .centbox .mblc .nb .cnb > a.na {
+  background: #194775;
+}
+.middle06 .centbox .mblc .nb .cnb > a.nb {
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.middle06 .centbox .grbox {
+  width: 100%;
+  margin-top: 15px;
+  padding: 15px 15px;
+  background-color: #c6c6c6;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: #194775;
+  line-height: 1.6em;
+  text-align: left;
+}
+.middle06 .centbox .wbox {
+  width: 100%;
+  background-color: white;
+  padding: 15px 15px;
+  *zoom: 1;
+}
+.middle06 .centbox .wbox:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wbox .ll, .middle06 .centbox .wbox .lr {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.middle06 .centbox .wbox .lr {
+  float: right;
+}
+.middle06 .centbox .wbox .ll {
+  width: 60%;
+}
+.middle06 .centbox .wbox .lr {
+  width: calc(100% - 60%);
+}
+.middle06 .centbox .wbox .ll {
+  float: left;
+  height: 200px;
+}
+.middle06 .centbox .wbox .lr {
+  float: left;
+  height: 200px;
+  background-color: rgba(0, 128, 0, 0.2);
+}

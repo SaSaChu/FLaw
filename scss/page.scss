@@ -1,0 +1,368 @@
+@import "_oa";
+
+
+@include font-face("icomoon", font-files("icomoon/icomoon.eot", "icomoon/icomoon.woff", "icomoon/icomoon.ttf", "icomoon/icomoon.svg"));
+[class^="icon-"], [class*=" icon-"] {font-family: 'icomoon', "Roboto", "微軟正黑體", 'Monaco';speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;@include font-smoothing(antialiased);}
+
+.icon-location:before {
+    content: "\e901";
+}
+.icon-mail:before {
+    content: "\e904";
+}
+.icon-phone:before {
+    content: "\e900";
+}
+
+
+* {
+  &, &:after, &:before {
+    vertical-align: top;
+    @include box-sizing(border-box);
+    @include selection(rgba(150, 200, 255, 1), rgba(255, 255, 255, 1));
+    @include font-smoothing(antialiased);
+  }
+}
+
+$allwidth: 1000px;
+
+.middle {
+
+  .tagbox {
+    margin: 0 auto;
+    width: $allwidth;
+    height: 100px;
+
+    .ta01 {
+      display: inline-block;
+      float: left;
+      width: 100%;
+      height: 50px;
+      padding-top: 15px;
+
+      @include clearfix();
+
+      a {
+        float: left;
+        font-size: .8em;
+        font-weight: bolder;
+        text-align: left;
+        color: rgba(55, 95, 135, 1.00);
+        text-decoration: none;
+        padding: 0 5px;
+
+        &:hover {
+          color: rgba(64, 158, 209, 1.00);
+          text-decoration: underline;
+        }
+      }
+
+      span {
+        float: left;
+        font-weight: bolder;
+        font-size: .8em;
+        color: rgba(55, 95, 135, 1.00);
+        padding: 0 5px;
+
+        &.n01 {
+          color: rgba(64, 158, 209, 1.00);
+        }
+      }
+    }
+
+
+    .ta02 {
+      display: inline-block;
+      width: 100%;
+      height: 50px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      background-color: rgba(25, 71, 117, 1.00);
+      border-left: 3px solid rgba(185, 165, 34, 1.00);
+
+      @include clearfix();
+
+      span {
+        float: left;
+        text-align: left;
+        font-size: 1.4em;
+        font-weight: bolder;
+        color: white;
+        padding: 10px 0 0 15px;
+      }
+    }
+  }
+}
+
+
+
+.middle06 {
+  width: 100%;
+  padding-bottom: 40px;
+  background-image: image-url('pagebg.jpg', false, false);
+
+  .bann {
+    margin: 0 auto;
+    height: 350px;
+    width: $allwidth;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .centbox {
+    margin: 0 auto;
+    width: $allwidth;
+
+    .wh01 {
+      margin-top: 15px;
+      width: 100%;
+      background-color: white;
+      padding: 15px 15px;
+
+      @include clearfix();
+
+      .new01 {
+        float: left;
+        width: 100%;
+        border-bottom: 1px dotted rgba(108, 137, 168, 1.00);
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+
+        @include clearfix();
+
+        .np01 {
+          float: left;
+          width: 100%;
+          text-align: left;
+          border-left: 2px solid rgba(118, 155, 203, 1.00);
+          font-size: .8em;
+          font-weight: bolder;
+          color: rgba(150, 150, 150, 1.00);
+          padding: 5px 5px;
+        }
+
+        .np02 {
+          float: left;
+          width: 100%;
+          border-left: 2px solid rgba(189, 181, 121, 1.00);
+
+          text-align: left;
+          font-weight: bolder;
+          font-size: 1em;
+          color: rgba(52, 89, 128, 1.00);
+          padding: 5px 5px;
+          text-decoration: none;
+
+          @include clearfix();
+
+          a {
+            float: left;
+            text-align: left;
+            font-weight: bolder;
+            font-size: 1em;
+            color: rgba(52, 89, 128, 1.00);
+            padding: 5px 5px;
+            text-decoration: none;
+
+            &:hover {
+             color: rgba(64, 158, 209, 1.00);
+             text-decoration: underline;
+            }
+
+          }
+        }
+
+      }
+
+      .np03 {
+        float: left;
+        width: 100%;
+        text-align: left;
+        font-size: 1em;
+        color: rgba(38, 38, 38, 1.00);
+        padding: 5px 5px;
+      }
+
+      .whh {
+        float: left;
+        width: calc(50% - 5px);
+
+        padding:15px 15px 30px 15px;
+
+        @include clearfix();
+
+        img {
+          float: left;
+          width: 327px;
+          height: 52px;
+        }
+
+        .map {
+          float: left;
+          width: 100%;
+          height: 205px;
+          margin-top: 20px;
+          margin-bottom: 10px;
+        }
+
+        .cc01 {
+          float: left;
+          width: 100%;
+
+          padding-top: 15px;
+
+          span {
+            float: left;
+            font-size: 1em;
+            text-align: left;
+            color: rgba(102, 152, 201, 1.00);
+            font-weight: bolder;
+
+            &.cotype {
+              float: left;
+              font-size: 1em;
+              text-align: left;
+              color: rgba(26, 26, 26, 1.00);
+              font-weight: bolder;
+
+              a {
+                text-decoration: none;
+                color: rgba(26, 26, 26, 1.00);
+
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+
+          a {
+            &.ot01{
+              float: left;
+              font-size: 1em;
+              text-align: left;
+              color: rgba(26, 26, 26, 1.00);
+              font-weight: bolder;
+              text-decoration: none;
+              padding: 5px 0 0 58px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+
+
+        &:nth-child(2n+1) {
+          float: left;
+        }
+
+        &:nth-child(2n) {
+          float: right;
+        }
+      }
+
+      img {
+        width: 922px;
+        height: 193px;
+      }
+
+    }
+
+
+
+    .mblc {
+      width: 100%;
+      padding-top: 40px;
+
+      .nb {
+        width: 100%;
+
+        .cnb {
+          display: inline-block;
+
+          @include clearfix();
+
+          > a {
+            display: inline-block;
+            padding-top: 5px;
+            margin-left: 10px;
+            width: 30px;
+            height: 30px;
+
+            @include border-radius(50px);
+
+            background: #99bbd2;
+
+            font-size: 1em;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+
+            &:hover, &.na {
+             background: rgba(25, 71, 117, 1.00);
+            }
+
+            &.nb {
+             width: auto;
+             padding-left: 10px;
+             padding-right: 10px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+
+
+    .grbox {
+      width: 100%;
+      margin-top: 15px;
+      padding: 15px 15px;
+      background-color: rgba(198, 198, 198, 1.00);
+
+      font-size: 1.2em;
+      font-weight: bolder;
+      color: rgba(25, 71, 117, 1.00);
+      line-height: 1.6em;
+      text-align: left;
+    }
+
+    .wbox {
+      width: 100%;
+      background-color: white;
+      padding: 15px 15px;
+
+      @include split-left(60%, '.ll', '.lr');
+
+      .ll {
+        float: left;
+        height: 200px;
+
+        span {
+
+        }
+      }
+
+      .lr {
+        float: left;
+        height: 200px;
+
+        background-color: rgba(0, 128, 0, 0.2);
+      }
+    }
+
+
+  }
+}
+
+
+
