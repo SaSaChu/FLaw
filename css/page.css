@@ -45,7 +45,7 @@
  */
 @font-face {
   font-family: "icomoon";
-  src: url('/FLaw/font/icomoon/icomoon.eot?1465220946') format('embedded-opentype'), url('/FLaw/font/icomoon/icomoon.woff?1465220946') format('woff'), url('/FLaw/font/icomoon/icomoon.ttf?1465220946') format('truetype'), url('/FLaw/font/icomoon/icomoon.svg?1465220946') format('svg');
+  src: url('/FLaw/font/icomoon/icomoon.eot?1465376788') format('embedded-opentype'), url('/FLaw/font/icomoon/icomoon.woff?1465376788') format('woff'), url('/FLaw/font/icomoon/icomoon.ttf?1465376788') format('truetype'), url('/FLaw/font/icomoon/icomoon.svg?1465376788') format('svg');
 }
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon', "Roboto", "微軟正黑體", 'Monaco';
@@ -62,16 +62,20 @@
   -o-font-smoothing: antialiased;
 }
 
-.icon-location:before {
-  content: "\e901";
+.icon-forward:before {
+  content: "\e900";
+}
+
+.icon-phone:before {
+  content: "\e0cd";
+}
+
+.icon-map-marker:before {
+  content: "\f041";
 }
 
 .icon-mail:before {
   content: "\e904";
-}
-
-.icon-phone:before {
-  content: "\e900";
 }
 
 *, *:after, *:before {
@@ -160,6 +164,64 @@
   color: white;
   padding: 10px 0 0 15px;
 }
+.middle .tagbox .ta03 {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  *zoom: 1;
+}
+.middle .tagbox .ta03:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle .tagbox .ta03 .ta03l, .middle .tagbox .ta03 .ta03r {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.middle .tagbox .ta03 .ta03r {
+  float: right;
+}
+.middle .tagbox .ta03 .ta03l {
+  width: 20%;
+}
+.middle .tagbox .ta03 .ta03r {
+  width: calc(100% - 20%);
+}
+.middle .tagbox .ta03 .ta03l {
+  float: left;
+  background-color: #194775;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 13px 15px;
+  color: white;
+  font-size: 1.2em;
+}
+.middle .tagbox .ta03 .ta03r {
+  float: left;
+  padding-left: 30px;
+  *zoom: 1;
+}
+.middle .tagbox .ta03 .ta03r:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle .tagbox .ta03 .ta03r .tar03cent {
+  display: inline-block;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  float: left;
+  text-align: left;
+  color: white;
+  background-color: #194775;
+  padding: 13px 15px;
+  font-size: 1.2em;
+}
 
 .middle06 {
   width: 100%;
@@ -178,6 +240,7 @@
 .middle06 .centbox {
   margin: 0 auto;
   width: 1000px;
+  *zoom: 1;
 }
 .middle06 .centbox .wh01 {
   margin-top: 15px;
@@ -327,6 +390,60 @@
   width: 922px;
   height: 193px;
 }
+.middle06 .centbox .wh01 .freebox {
+  float: left;
+  width: calc(100% / 3);
+  padding: 10px 10px;
+}
+.middle06 .centbox .wh01 .freebox .name, .middle06 .centbox .wh01 .freebox .title {
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bolder;
+  color: #194775;
+  padding: 5px 0;
+}
+.middle06 .centbox .wh01 .freebox .peoplebox {
+  width: 100%;
+  border: 1px solid lightgray;
+}
+.middle06 .centbox .wh01 .freebox .peoplebox img {
+  width: 193px;
+  height: 204px;
+}
+.middle06 .centbox .wh01 .freebox .title {
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+.middle06 .centbox .wh01 .freebox .futitle {
+  width: 100%;
+  text-align: left;
+  font-size: 1em;
+  color: #7da6d0;
+  padding-bottom: 10px;
+}
+.middle06 .centbox .wh01 .freebox .linebbox {
+  width: 100%;
+  border-top: 1px solid #194775;
+  border-bottom: 1px solid #194775;
+  padding: 5px 0;
+  *zoom: 1;
+}
+.middle06 .centbox .wh01 .freebox .linebbox:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wh01 .freebox .linebbox span {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  text-align: left;
+  font-size: .8em;
+  color: #1a1a1a;
+  padding: 5px 0;
+}
 .middle06 .centbox .mblc {
   width: 100%;
   padding-top: 40px;
@@ -404,12 +521,196 @@
 .middle06 .centbox .wbox .lr {
   width: calc(100% - 60%);
 }
-.middle06 .centbox .wbox .ll {
+.middle06 .centbox .wbox .ll, .middle06 .centbox .wbox .lr {
   float: left;
-  height: 200px;
+  padding: 15px 0;
 }
-.middle06 .centbox .wbox .lr {
+.middle06 .centbox .wbox .ll span, .middle06 .centbox .wbox .lr span {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 0;
+  *zoom: 1;
+}
+.middle06 .centbox .wbox .ll span:after, .middle06 .centbox .wbox .lr span:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wbox .ll span a, .middle06 .centbox .wbox .lr span a {
   float: left;
-  height: 200px;
-  background-color: rgba(0, 128, 0, 0.2);
+  font-size: 1em;
+  text-align: left;
+  color: black;
+  background-image: url(../img/bluedool.jpg);
+  background-repeat: no-repeat;
+  background-position: 5px 4px;
+  padding-left: 25px;
+  text-decoration: none;
+}
+.middle06 .centbox .wbox .ll span a:hover, .middle06 .centbox .wbox .lr span a:hover {
+  color: #82abd3;
+  text-decoration: underline;
+}
+.middle06 .centbox .wbox .bluebar {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  *zoom: 1;
+}
+.middle06 .centbox .wbox .bluebar:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wbox .bluebar .btag {
+  float: left;
+  display: inline-block;
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  font-size: 1em;
+  color: white;
+  background-color: #6698c9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.middle06 .centbox .wbox .bluebar:after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: 22px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid #6698c9;
+}
+.middle06 .centbox .wbox .linktype {
+  width: 100%;
+  padding: 50px 0 0 170px;
+  margin-bottom: 20px;
+  *zoom: 1;
+}
+.middle06 .centbox .wbox .linktype:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wbox .linktype > div {
+  float: left;
+  width: calc(100% / 3);
+}
+.middle06 .centbox .wbox .linktype > div span {
+  width: 100%;
+  float: left;
+  display: inline-block;
+  padding: 5px 0;
+  *zoom: 1;
+}
+.middle06 .centbox .wbox .linktype > div span:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .wbox .linktype > div span a {
+  float: left;
+  font-size: 1em;
+  text-align: left;
+  color: black;
+  background-image: url(../img/bluedool.jpg);
+  background-repeat: no-repeat;
+  background-position: 5px 4px;
+  padding-left: 25px;
+  text-decoration: none;
+}
+.middle06 .centbox .wbox .linktype > div span a:hover {
+  color: #82abd3;
+  text-decoration: underline;
+}
+.middle06 .centbox:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .al, .middle06 .centbox .ar {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.middle06 .centbox .ar {
+  float: right;
+}
+.middle06 .centbox .al {
+  width: 20%;
+}
+.middle06 .centbox .ar {
+  width: calc(100% - 20%);
+}
+.middle06 .centbox .al {
+  float: left;
+  background-color: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.middle06 .centbox .al .al01 {
+  width: 100%;
+  padding: 20px 10px;
+  border-bottom: 1px solid #194775;
+  *zoom: 1;
+}
+.middle06 .centbox .al .al01:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .al .al01 a {
+  float: left;
+  font-size: 1em;
+  color: #194775;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.middle06 .centbox .al .al01 a:hover {
+  color: #bba623;
+}
+.middle06 .centbox .al .al01 a.ay {
+  color: #bba623;
+}
+.middle06 .centbox .al .al01:last-child {
+  border-bottom: 0;
+}
+.middle06 .centbox .ar {
+  float: left;
+  padding-left: 30px;
+}
+.middle06 .centbox .ar .ar01 {
+  background-color: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  *zoom: 1;
+}
+.middle06 .centbox .ar .ar01:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.middle06 .centbox .ar .ar01 img {
+  width: 100%;
+  height: 187px;
+}
+.middle06 .centbox .ar .ar01 span {
+  float: left;
+  text-align: left;
+  padding: 30px 20px;
+  font-size: 1em;
+  line-height: 28px;
+  color: #1a1a1a;
 }

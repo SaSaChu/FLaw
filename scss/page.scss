@@ -4,15 +4,19 @@
 @include font-face("icomoon", font-files("icomoon/icomoon.eot", "icomoon/icomoon.woff", "icomoon/icomoon.ttf", "icomoon/icomoon.svg"));
 [class^="icon-"], [class*=" icon-"] {font-family: 'icomoon', "Roboto", "微軟正黑體", 'Monaco';speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;@include font-smoothing(antialiased);}
 
-.icon-location:before {
-    content: "\e901";
+.icon-forward:before {
+    content: "\e900";
+}
+.icon-phone:before {
+    content: "\e0cd";
+}
+.icon-map-marker:before {
+    content: "\f041";
 }
 .icon-mail:before {
     content: "\e904";
 }
-.icon-phone:before {
-    content: "\e900";
-}
+
 
 
 * {
@@ -89,6 +93,44 @@ $allwidth: 1000px;
         font-weight: bolder;
         color: white;
         padding: 10px 0 0 15px;
+      }
+    }
+
+    .ta03 {
+      display: inline-block;
+      width: 100%;
+      height: 50px;
+
+      @include split-left(20%, '.ta03l', '.ta03r');
+
+      .ta03l {
+        float: left;
+        background-color: rgba(25, 71, 117, 1.00);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 13px 15px;
+        color: white;
+        font-size: 1.2em;
+      }
+
+      .ta03r {
+        float: left;
+        padding-left: 30px;
+
+        @include clearfix();
+
+        .tar03cent {
+          display: inline-block;
+          width: 100%;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          float: left;
+          text-align: left;
+          color: white;
+          background-color: rgba(25, 71, 117, 1.00);
+          padding: 13px 15px;
+          font-size: 1.2em;
+        }
       }
     }
   }
@@ -271,6 +313,63 @@ $allwidth: 1000px;
         height: 193px;
       }
 
+      .freebox {
+        float: left;
+        width: calc(100% / 3);
+        padding: 10px 10px;
+
+        .name, .title {
+          width: 100%;
+          text-align: left;
+          font-size: 1em;
+          font-weight: bolder;
+          color: rgba(25, 71, 117, 1.00);
+          padding: 5px 0;
+        }
+
+        .peoplebox {
+          width: 100%;
+          border: 1px solid rgba(211, 211, 211, 1.00);
+
+          img {
+            width: 193px;
+            height: 204px;
+          }
+        }
+
+        .title {
+          font-size: 1.4em;
+          font-weight: bolder;
+        }
+
+        .futitle {
+          width: 100%;
+          text-align: left;
+          font-size: 1em;
+          color: rgba(125, 166, 208, 1.00);
+          padding-bottom: 10px;
+        }
+
+        .linebbox {
+          width: 100%;
+          border-top: 1px solid rgba(25, 71, 117, 1.00);
+          border-bottom: 1px solid rgba(25, 71, 117, 1.00);
+          padding: 5px 0;
+
+          @include clearfix();
+
+          span {
+            display: inline-block;
+            float: left;
+            width: 100%;
+            text-align: left;
+            font-size: .8em;
+            color: rgba(26, 26, 26, 1.00);
+            padding: 5px 0;
+          }
+        }
+      }
+
     }
 
 
@@ -343,25 +442,184 @@ $allwidth: 1000px;
 
       @include split-left(60%, '.ll', '.lr');
 
-      .ll {
+      .ll, .lr {
         float: left;
-        height: 200px;
+        padding: 15px 0;
 
         span {
+          display: inline-block;
+          width: 100%;
+          padding: 5px 0;
 
+          @include clearfix();
+
+          a {
+            float: left;
+            font-size: 1em;
+            text-align: left;
+            color: black;
+            background-image: url(../img/bluedool.jpg);
+            background-repeat: no-repeat;
+            background-position: 5px 4px;
+            padding-left: 25px;
+            text-decoration: none;
+
+            &:hover {
+              color: rgba(130, 171, 211, 1.00);
+              text-decoration: underline;
+            }
+          }
         }
+
+    }
+
+    .bluebar {
+      width: 100%;
+      position: relative;
+      z-index: 1;
+
+      @include clearfix();
+
+      .btag {
+        float: left;
+        display: inline-block;
+        padding: 10px 20px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+
+        font-size: 1em;
+        color: white;
+        background-color: rgba(102, 152, 201, 1.00);
+        @include border-radius(5px);
+
       }
 
-      .lr {
-        float: left;
-        height: 200px;
-
-        background-color: rgba(0, 128, 0, 0.2);
+      &:after {
+        display: inline-block;
+        content: '';
+        position: absolute;
+        top:22px;
+        left: 0px;
+        width: 100%;
+        border-bottom: 1px solid rgba(102, 152, 201, 1.00);
       }
     }
 
+    .linktype {
+      width: 100%;
+      padding: 50px 0 0 170px;
+      margin-bottom: 20px;
+
+      @include clearfix();
+
+      > div {
+        float: left;
+        width: calc(100% / 3);
+
+        span {
+          width: 100%;
+          float: left;
+          display: inline-block;
+          padding: 5px 0;
+
+          @include clearfix();
+
+          a {
+            float: left;
+            font-size: 1em;
+            text-align: left;
+            color: black;
+            background-image: url(../img/bluedool.jpg);
+            background-repeat: no-repeat;
+            background-position: 5px 4px;
+            padding-left: 25px;
+            text-decoration: none;
+
+            &:hover {
+              color: rgba(130, 171, 211, 1.00);
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+
+  @include split-left(20%, '.al', '.ar');
+
+  .al {
+    float: left;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    .al01 {
+      width: 100%;
+      padding: 20px 10px;
+      border-bottom: 1px solid rgba(25, 71, 117, 1.00);
+
+      @include clearfix();
+
+      a {
+        float: left;
+        font-size: 1em;
+        color: rgba(25, 71, 117, 1.00);
+        font-weight: bolder;
+        text-decoration: none;
+
+        &:hover {
+          color: rgba(187, 166, 35, 1.00);
+        }
+
+        &.ay {
+          color: rgba(187, 166, 35, 1.00);
+        }
+      }
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  .ar {
+    float: left;
+    padding-left: 30px;
+
+    .ar01 {
+      background-color: white;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+
+      @include clearfix();
+
+      img {
+        width: 100%;
+        height:187px;
+      }
+
+      span {
+        float: left;
+        text-align: left;
+        padding: 30px 20px;
+        font-size: 1em;
+        line-height: 28px;
+        color: rgba(26, 26, 26, 1.00);
+      }
+    }
+  }
+
 
   }
+
+
+
+
 }
 
 
