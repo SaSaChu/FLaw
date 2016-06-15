@@ -45,7 +45,7 @@ html {
 
 
     header {
-      width: 100%;
+      width: $allwidth;
 
       .ta {
         width: 100%;
@@ -233,7 +233,7 @@ html {
 
 
     .middle02 {
-      width: 100%;
+      width: $allwidth;
       height: 260px;
       // background-image: url(../img/servicebg.png);
       background-repeat: no-repeat;
@@ -311,7 +311,7 @@ html {
 
 
     .middle04 {
-      width: 100%;
+        width: $allwidth;
       background-color: rgba(243, 243, 243, 1.00);
       padding: 20px 0;
 
@@ -397,7 +397,7 @@ html {
 
 
     .middle05 {
-      width: 100%;
+      width: $allwidth;
       height: 50px;
       background-color: rgba(102, 152, 201, 1.00);
       padding: 15px 0;
@@ -419,7 +419,7 @@ html {
 
 
     footer {
-      width: 100%;
+          width: $allwidth;
       height: 125px;
 
       .ft {
