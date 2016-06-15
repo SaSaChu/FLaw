@@ -26,12 +26,14 @@
 html {
   height: 100%;
 
+    $allwidth: 1000px;
   body {
     position: relative;
     display: inline-block;
     text-align: center;
     margin: 0;
-    width: 100%;
+    min-width: 100%;
+    width: $allwidth;
     height: 100%;
     font-size: medium;
     font-family: Monaco, "微軟正黑體", "Microsoft JhengHei";
@@ -41,11 +43,10 @@ html {
     @include font-smoothing(antialiased);
 
 
-    $allwidth: 1000px;
 
 
     header {
-      width: $allwidth;
+      width: 100%;
 
       .ta {
         width: 100%;
@@ -233,7 +234,7 @@ html {
 
 
     .middle02 {
-      width: $allwidth;
+      width: 100%;
       height: 260px;
       // background-image: url(../img/servicebg.png);
       background-repeat: no-repeat;
@@ -311,7 +312,7 @@ html {
 
 
     .middle04 {
-        width: $allwidth;
+      width: 100%;
       background-color: rgba(243, 243, 243, 1.00);
       padding: 20px 0;
 
@@ -397,7 +398,7 @@ html {
 
 
     .middle05 {
-      width: $allwidth;
+      width: 100%;
       height: 50px;
       background-color: rgba(102, 152, 201, 1.00);
       padding: 15px 0;
@@ -419,7 +420,7 @@ html {
 
 
     footer {
-          width: $allwidth;
+      width: 100%;
       height: 125px;
 
       .ft {
