@@ -4,5 +4,5 @@
  */
 
 $(function () {
-
+   $('.tecent01').imgLiquid ({verticalAlign: 'center'});
 });

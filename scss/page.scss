@@ -654,11 +654,12 @@ $allwidth: 1000px;
 
           .tecent01 {
             float: left;
+            height: 210px;
             border: 1px solid rgba(206, 211, 217, 1.00);
 
             img {
               width: 184px;
-              height: 194px;
+              height: 210px;
             }
           }
 
@@ -704,9 +705,10 @@ $allwidth: 1000px;
                 width: 80%;
                 float: left;
                 text-align: left;
-                margin: 10px;
+                margin: 4px 18px;
                 font-size: .8em;
                 color: rgba(39, 40, 34, 1.00);
+                line-height: 24px;
               }
 
               > div {
@@ -720,9 +722,10 @@ $allwidth: 1000px;
                   width: 100%;
                   float: left;
                   text-align: left;
-                  margin: 5px 5px;
+                  margin: 0 5px;
                   font-size: .8em;
                   color: rgba(39, 40, 34, 1.00);
+                  line-height: 24px;
                 }
               }
 
