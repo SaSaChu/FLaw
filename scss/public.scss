@@ -4,14 +4,17 @@
 @include font-face("icomoon", font-files("icomoon/icomoon.eot", "icomoon/icomoon.woff", "icomoon/icomoon.ttf", "icomoon/icomoon.svg"));
 [class^="icon-"], [class*=" icon-"] {font-family: 'icomoon', "Roboto", "微軟正黑體", 'Monaco';speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;@include font-smoothing(antialiased);}
 
-.icon-location:before {
-    content: "\e901";
+.icon-forward:before {
+    content: "\e900";
+}
+.icon-phone:before {
+    content: "\e0cd";
+}
+.icon-map-marker:before {
+    content: "\f041";
 }
 .icon-mail:before {
     content: "\e904";
-}
-.icon-phone:before {
-    content: "\e900";
 }
 
 * {
@@ -94,7 +97,7 @@ html {
               display: inline-block;
               font-size: 2em;
               float: left;
-              padding-left: 23px;
+              padding-left: 33px;
             }
 
             .t03 {
@@ -444,19 +447,18 @@ html {
           .ft02 {
             float: left;
             display: inline-block;
-            font-size: .8em;
+            font-size: .9em;
             color: rgba(255, 255, 255, 1.00);
-            padding-right: 20px;
+            padding-right: 15px;
 
             &:before {
               display: inline-block;
-              padding-right: 10px;
+              padding-right: 5px;
             }
 
             a {
               font-size: .8em;
               color: rgba(255, 255, 255, 1.00);
-              padding-right: 20px;
               text-decoration: none;
 
               &:hover {
@@ -480,6 +482,16 @@ html {
           width: $allwidth;
           font-size: .8em;
           color: rgba(255, 255, 255, 1.00);
+        }
+
+        a {
+          font-size: 1em;
+          color: white;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
 

@@ -262,7 +262,7 @@ html body .middle02 {
   height: 260px;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-image: url('/FLaw/img/servicebg.png');
+  background-image: url('../img/servicebg.png');
 }
 html body .middle02 .mbox02 {
   margin: 0 auto;
