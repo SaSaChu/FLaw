@@ -433,7 +433,10 @@ html {
 
         .ftbox {
           margin: 0 auto;
-          width: $allwidth;
+          width: 1150px;
+
+          @include clearfix();
+
 
           .ft01 {
             width: 100%;
@@ -447,7 +450,7 @@ html {
           .ft02 {
             float: left;
             display: inline-block;
-            font-size: .9em;
+            font-size: 1em;
             color: rgba(255, 255, 255, 1.00);
             padding-right: 15px;
 
@@ -457,7 +460,7 @@ html {
             }
 
             a {
-              font-size: .8em;
+              font-size: 1em;
               color: rgba(255, 255, 255, 1.00);
               text-decoration: none;
 
